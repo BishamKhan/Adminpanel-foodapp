@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Dashboard.css";
+import "../../pages/Dashboard/Dashboard";
 
 function Dashboard() {
   const [cards] = useState([

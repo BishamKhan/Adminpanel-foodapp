@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Card, Col, Row, Tabs, Divider } from "antd";
 import { Bar, Line } from "react-chartjs-2";
+import Cards from "../../Components/Cards/Card"
 import "antd/dist/antd.css";
 import "./Dashboard.css";
 
@@ -44,18 +45,7 @@ function Dashboard() {
   return (
     <div className="dashboard">
       <div className="body">
-        <section>
-          <div className="Container">
-            <div className="cards">
-              {cards.map((card, i) => (
-                <div key={i} className="card">
-                  <h6>{card.title}</h6>
-                  <div>{card.num}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+        <Cards/>
         <div>
           <div className="textbox-filter">
             <input

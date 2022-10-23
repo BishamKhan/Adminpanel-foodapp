@@ -1,0 +1,45 @@
+.restuarant-main{
+    width: 100%;
+    padding: 1.5%;
+}
+.div2{
+    display: flex;
+}
+.div1{
+    justify-content: space-between;
+}
+
+.ant-table-tbody{
+    text-align: center !important;
+}
+
+.ant-btn-primary{
+    
+    border-color: #3c9ca7 !important;
+    background: #3c9ca7 !important;
+}
+
+.addresbtn{
+    /* margin-right: 4%; */
+    padding: 4% 12% 4% 12%;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    border-color: #3c9ca7;
+    background: #3c9ca7;
+    color: #fff;
+}
+
+.tablebtn{
+    padding: 3% 10% 3% 10%;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    border-color: #3c9ca7;
+    background: #3c9ca7;
+    color: #fff;
+}
+
+tr:nth-child(odd){
+    background-color: #efefee;
+  }

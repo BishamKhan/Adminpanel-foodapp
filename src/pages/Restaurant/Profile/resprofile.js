@@ -1,10 +1,10 @@
 import React from "react";
-import coverpic from "../../../images/foodcover.jpg";
 import "./profile.css";
 import { Tabs } from "antd";
 import Personalinfo from "./personalinfo";
 import Review from "../../../Components/Reviews/review";
 import Configuration from "../Configuration/configuration";
+import Fooditem from "../Fooditems/fooditems";
 
 function Resprofile() {
   return (
@@ -14,7 +14,7 @@ function Resprofile() {
           <Personalinfo />
         </Tabs.TabPane>
         <Tabs.TabPane tab="Food Items" key="2">
-          FOOD ITEMS
+          <Fooditem/>
         </Tabs.TabPane>
         <Tabs.TabPane tab="Ratings & Reviews" key="3">
           <Review />

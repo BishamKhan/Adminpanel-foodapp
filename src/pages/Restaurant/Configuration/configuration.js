@@ -96,6 +96,11 @@ function Configuration() {
             </div>                 
             </div>
         </div>
+        <div className='row'>
+            <div className='col-md-12 profilesavebtn'>
+                <button>Save</button>
+            </div>
+        </div>
     </div>
   );
 }

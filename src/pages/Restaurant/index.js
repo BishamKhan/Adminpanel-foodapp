@@ -2,7 +2,7 @@ import React from "react";
 import { Tabs, Button, Input, Space, Table, Tag } from "antd";
 import "./restaurant.css";
 import Registeredrestaurants from "./Restaurantlist/registeredrestaurants";
-import Tablecomp from "../../Components/Table/table";
+import Tablecomp from "./Table/table";
 import "./restaurant.css";
 
 function Restaurant() {

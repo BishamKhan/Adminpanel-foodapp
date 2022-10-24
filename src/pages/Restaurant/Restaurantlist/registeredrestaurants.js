@@ -12,9 +12,6 @@ function Registeredrestaurants() {
 
   return (
     <div className="div1" style={{display:"flex"}} >
-        {/* <div style={{width:"300px", backgroundColor:"skyblue"}}>
-            <h1>sidebar</h1>
-        </div> */}
             <div>
          <Search placeholder="input search text" enterButton />
             </div>

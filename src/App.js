@@ -7,17 +7,15 @@ import Addrestaurants from "./pages/Restaurant/Addrestaurant/addrestaurant";
 import Restaurant from "./pages/Restaurant";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Resprofile from "./pages/Restaurant/Profile/resprofile";
-import Review from "./Components/Reviews/review";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Resprofile />
-        {/* <Review/> */}
         <Routes>
-          {/* <Route path="/" element={<Restaurant />}/>
-        <Route path="/addrestaurants" element={<Addrestaurants />}/> */}
+          <Route path="/" element={<Restaurant />}/>
+          <Route path="/addrestaurants" element={<Addrestaurants />}/>
+          <Route path="/restaurantprofile" element={<Resprofile />}/>
         </Routes>
       </BrowserRouter>
     </div>

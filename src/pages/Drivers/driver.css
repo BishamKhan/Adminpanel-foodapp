@@ -1,0 +1,37 @@
+.drivermain{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.driverdiv{
+    text-align: left;
+}
+
+.driverdiv1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.drivdiv2{
+    /* background-color: yellowgreen; */
+    display: flex;
+}
+
+.drivdiv2 button{
+    margin: 9px;
+}
+
+.drivdiv2 p{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(44, 44, 44);
+}
+
+.drivdiv2 input{
+    /* width: 58%; */
+}
+
+.ant-btn{
+    background-color: #3c9ca7  !important;
+    border-color: #3c9ca7 ;
+}

@@ -1,0 +1,29 @@
+.usersmain{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.usersdiv{
+    text-align: left;
+}
+
+.usersdiv1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.usersdiv2{
+    margin-right: 2%;
+    /* margin-left: 2%; */
+    display: flex;
+}
+
+.downloadbtn{
+    background-color: #fff;
+    border: 1px solid gray;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    
+}

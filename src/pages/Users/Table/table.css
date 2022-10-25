@@ -1,19 +1,26 @@
-.revdp{
+.imgdp{
     width: 100px;
-    /* background-color: aquamarine; */
-    /* height: 60%;
-    width:  6%; */
-    /* background-color: #bbb;
-    border-radius: 50%;
-    margin-right: 2%; */
 }
 
 
-.revdp img{
+.imgdp img{
     height: 10%;
     width:  50%;
     background-color: #bbb;
     border-radius: 50%;  
+}
+
+.tablebtn{
+    background-color: #3c9ca7;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    /* padding: 0.5% 1% 0.5% 1%; */
+
+}
+
+.ant-switch{
+    background-color: #3c9ca7 !important;
 }
 
 .ant-table-tbody{

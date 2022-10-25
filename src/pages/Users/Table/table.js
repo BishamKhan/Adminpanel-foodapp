@@ -1,11 +1,16 @@
-import { Space, Table, Tag } from "antd";
+import { Space, Table, Tag,Switch } from "antd";
 import React from "react";
 import './table.css'
 import img from '../../../images/foodcover.jpg'
 import { useNavigate } from "react-router-dom";
 
+ 
+
 function Tablecomp() {
-  const navigate = useNavigate();
+  
+  const onChange = (checked) => {
+    console.log(`switch to ${checked}`);
+  };
 
   const columns = [
     {
@@ -18,7 +23,7 @@ function Tablecomp() {
       key: "image",
       render: () => (
         <Space size="middle">
-            <div className='revdp'>
+            <div className='imgdp'>
                 <img className="" src={img} />
                 </div>
         </Space>
@@ -42,31 +47,26 @@ function Tablecomp() {
       key: "phone",
     },
     {
-      title: "OCCUPATION",
-      dataIndex: "occupation",
-      key: "occupation",
+      title: "OTP VERIFIED",
+      dataIndex: "otpverified",
+      key: "otpverified",
     },
     {
-      title: "RESTAURANT",
-      dataIndex: "Restaurant",
-      key: "Restaurant",
+      title: "FLAGGED",
+      dataIndex: "flagged",
+      key: "flagged",
     },
     {
-      title: "COMMISSION",
-      dataIndex: "commission",
-      key: "commission",
-    },
-    {
-      title: "REVENUE",
-      dataIndex:"revenue",
-      key: "revenue",
+      title: "JOINED ON",
+      dataIndex: "joinedon",
+      key: "joinedon",
     },
     {
         title: "Status",
         dataIndex:"status",
         render: (_, record) => (
             <Space size="middle">
-              <button className="">open</button>
+              <Switch defaultChecked onChange={onChange} />
             </Space>
           ),
       },
@@ -77,7 +77,7 @@ function Tablecomp() {
         render: (_, record) => (
           <Space size="middle">
             <button className="tablebtn">Edit</button>
-            <button>...</button>
+            <button className="tablebtn">Reset Password</button>
           </Space>
         ),
       },
@@ -88,42 +88,37 @@ function Tablecomp() {
       name: "bisham",
       email: "david@gmail.com",
       phone: "12344567899",
-      occupation: "delivery agent",
-      Restaurant: "All",
-      commission: "5(flat)",
-      revenue: "$1312",
+      otpverified: "Yes",
+      flagged: "No",
+      joinedon: "24 oct 2022"
     },
     {
-        id: "2",
-        name: "raheel",
-        email: "david@gmail.com",
-        phone: "12344567899",
-        occupation: "delivery agent",
-        Restaurant: "All",
-        commission: "5(flat)",
-        revenue: "$1312",
-      },
-      {
-        id: "3",
-        name: "maha",
-        email: "david@gmail.com",
-        phone: "12344567899",
-        occupation: "delivery agent",
-        Restaurant: "All",
-        commission: "5(flat)",
-        revenue: "$1312",
-      },
-      {
-        id: "4",
-        name: "bisham",
-        email: "david@gmail.com",
-        phone: "12344567899",
-        occupation: "delivery agent",
-        Restaurant: "All",
-        commission: "5(flat)",
-        revenue: "$1312",
-      },
-    
+      id: "2",
+      name: "bisham",
+      email: "david@gmail.com",
+      phone: "12344567899",
+      otpverified: "Yes",
+      flagged: "No",
+      joinedon: "24 oct 2022"
+    },
+    {
+      id: "3",
+      name: "bisham",
+      email: "david@gmail.com",
+      phone: "12344567899",
+      otpverified: "Yes",
+      flagged: "No",
+      joinedon: "24 oct 2022"
+    },
+    {
+      id: "4",
+      name: "bisham",
+      email: "david@gmail.com",
+      phone: "12344567899",
+      otpverified: "Yes",
+      flagged: "No",
+      joinedon: "24 oct 2022"
+    },
   ];
 
   return (

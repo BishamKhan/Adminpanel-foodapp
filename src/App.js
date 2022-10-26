@@ -10,13 +10,9 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      {/* <AddDriver/> */}
-      <Drivers/>
-        <Routes>
-          {/* <Route path="/" element={<Drivers/>} /> */}
-          {/* <Route path="/" element={<Restaurant />}/>
-          <Route path="/addrestaurants" element={<Addrestaurants />}/>
-          <Route path="/restaurantprofile" element={<Resprofile />}/> */}
+      <Routes>
+          <Route path="/drivers" element={<Drivers/>} />
+          <Route path="/adddrivers" element={<AddDriver/>} />
         </Routes>
       </BrowserRouter>
     </div>

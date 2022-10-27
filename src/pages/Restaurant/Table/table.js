@@ -19,12 +19,12 @@ function Tablecomp() {
       key: "restaurantname",
       render: (_, record) => (
         <Space size="middle">
-          <button
+          <p
             onClick={() => navigate("/restaurantprofile")}
-            className="tablebtn"
+            style={{cursor:"pointer"}}
           >
             Hot n roll
-          </button>
+          </p>
         </Space>
       ),
 

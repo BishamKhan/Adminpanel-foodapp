@@ -4,7 +4,7 @@ import { Tabs } from "antd";
 import Personalinfo from "./personalinfo";
 import Review from "../../../Components/Reviews/review";
 import Configuration from "../Configuration/configuration";
-import Fooditem from "../Fooditems/fooditems";
+// import Fooditem from "../Fooditems/fooditems";
 
 function Resprofile() {
   return (
@@ -18,7 +18,7 @@ function Resprofile() {
               </div>
             </Tabs.TabPane>
             <Tabs.TabPane tab="Food Items" key="2">
-              <Fooditem />
+              {/* <Fooditem /> */}
             </Tabs.TabPane>
             <Tabs.TabPane tab="Ratings & Reviews" key="3">
               <Review />

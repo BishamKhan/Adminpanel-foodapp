@@ -94,7 +94,7 @@ function BarSide() {
                   className="title"
                   onClick={() => navigate(item.link)}
                   
-                  id={window.location.pathname == item.link }
+                  id={window.location.pathname == item.link ? "active" : ""}
                 >
                   <div className="sidebar-icon">{item.icon}</div>
                   <div className="sidebar-label">{item.label}</div>

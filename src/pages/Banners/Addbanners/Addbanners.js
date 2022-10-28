@@ -1,20 +1,20 @@
+import React from "react";
+// import { Input } from "antd";
 import { LeftOutlined } from "@ant-design/icons";
-// import { Tabs,Button,Input,Space,Table,Tag } from 'antd'
+import "./Addbanners.css";
 import { useNavigate } from "react-router-dom";
-import AddImage from "../Add Image/AddImage";
-import "./categories.css";
 
-function Categories() {
+function Addbanners() {
+  // const { Search } = Input;
   const navigate = useNavigate();
   return (
-    <div className="addresmain">
-      <div>
-        {/* <div className='col-md-2'></div> */}
+    <>
+      <div className="main-banner">
         <div className="main-div" style={{ display: "flex" }}>
-          <h4>Add New Category</h4>
-          <button onClick={() => navigate("/menu")}>
-            <LeftOutlined className="categories-icon" />
-            Category List
+          <h4>Add Banners</h4>
+          <button onClick={() => navigate("/banners")} className="back-btn">
+            <LeftOutlined />
+            Back
           </button>
         </div>
         <div
@@ -23,61 +23,67 @@ function Categories() {
         >
           <div className="col-md-6 addresdiv1">
             <div>
-              <p>NAME</p>
+              <p>RESTUARANT</p>
               <input placeholder="Name" />
             </div>
           </div>
           <div className="col-md-6 addresdiv1">
             <div>
-              <p>NAME (ARABIC)</p>
+              <p>RESTUARANT BRANCH</p>
               <input placeholder="NAME (ARABIC)" />
             </div>
           </div>
 
           <div className="col-md-6 addresdiv1">
             <div>
-              <p>TAX(%)</p>
+              <p>CATEGORIES</p>
               <input placeholder="TAX(%)" />
             </div>
           </div>
-          <div className="col-md-6 addresdiv1"></div>
           <div className="col-md-6 addresdiv1">
             <div>
-              <p>DESCRIPTION</p>
+              <p>BANNER VALIDITY</p>
               <input placeholder="DESCRIPTION" />
             </div>
           </div>
 
           <div className="col-md-6 addresdiv1">
             <div>
-              <p>DESCRIPTION (ARABIC)</p>
+              <p>BANNER NAME</p>
               <input placeholder="DESCRIPTION (ARABIC)" />
             </div>
           </div>
           <div className="col-md-6 addresdiv1">
             <div>
-              <p>WEBSITE IMAGE</p>
-              <AddImage />
+              <p>BANNER NAME (ARABIC)</p>
+              <input placeholder="DESCRIPTION (ARABIC)" />
             </div>
           </div>
 
           <div className="col-md-6 addresdiv1">
             <div>
-              <p>APP IMAGE</p>
-              <AddImage />
+              <p>BANNER IMAGE (WEBSITE)</p>
+              <div className="col-md-12 profilesavebtn">
+                <button>Choose Web Banner Image</button>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 addresdiv1">
+            <div>
+              <p>BANNER IMAGE (MOBILE)</p>
+              <div className="col-md-12 profilesavebtn">
+                <button>Choose Mobile Banner Image</button>
+              </div>
             </div>
           </div>
           <div className="row">
             <div className="col-md-12 profilesavebtn">
-              <button>Submit</button>
+              <button>SAVE CHANGES</button>
             </div>
           </div>
         </div>
-
-        {/* <div className='col-md-2'></div> */}
       </div>
-    </div>
+    </>
   );
 }
-
-export default Categories;
+export default Addbanners;

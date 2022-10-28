@@ -1,0 +1,61 @@
+.promoBtn {
+  width: 120px;
+  padding: 4% 12% 4% 12%;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  border-color: #3c9ca7;
+  background: #3c9ca7;
+  color: #fff;
+}
+
+.button-container {
+  position: relative;
+  background-image:"https://static.vecteezy.com/system/resources/previews/002/297/065/original/abstract-blue-wave-background-free-vector.jpg";
+}
+
+.button-container .ant-btn {
+  width: 10%;
+  border-radius: 0 0 50px 0;
+}
+
+.button-container .ban-btn-right {
+  width: 10%;
+  border-radius: 0 0 0 50px;
+}
+
+.button-container .ant-btn .anticon {
+  margin-left: -5px;
+  margin-bottom: -50px;
+}
+
+.button-container .ban-btn-right .anticon {
+  margin-right: -13px;
+  margin-bottom: -50px;
+}
+
+.ban-btn {
+  width: 2em;
+  color: white;
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 2px;
+  right: 0;
+  text-align: center;
+}
+
+.ban-btn-right {
+  position: absolute;
+  width: 2em;
+  color: white;
+  top: 10px;
+  bottom: 0;
+  left: 30 px;
+  right: 0;
+  text-align: center;
+}
+
+.ban-btn:hover {
+  size: 5em;
+}

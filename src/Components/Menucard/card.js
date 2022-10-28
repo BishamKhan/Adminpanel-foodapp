@@ -1,6 +1,6 @@
 import "./card.css";
 import { useNavigate } from "react-router-dom";
-import {EditOutlined} from "@ant-design/icons";
+import { EditOutlined, PlusSquareOutlined, MenuUnfoldOutlined } from "@ant-design/icons";
 function Card() {
   const navigate = useNavigate();
 
@@ -12,8 +12,11 @@ function Card() {
             <th className="menu-container">
               <div>Categories</div>
               <div>
-                <button  onClick={() => navigate("/categories")}>+</button>
-                <button>-</button>
+                <PlusSquareOutlined
+                  onClick={() => navigate("/categories")}
+                  className="menu-icon"
+                />
+                <MenuUnfoldOutlined className="menu-filter-icon" />
               </div>
             </th>
           </tr>
@@ -21,47 +24,7 @@ function Card() {
             <td style={{ paddingTop: "3%" }}>
               <div>Asian</div>
               <div>
-                <EditOutlined className="edit-icon"/>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <div>INDIAN</div>
-              <div>
-              <EditOutlined />
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <div>INDIAN</div>
-              <div>
-              <EditOutlined />
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <div>INDIAN</div>
-              <div>
-              <EditOutlined />
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <div>INDIAN</div>
-              <div>
-              <EditOutlined />
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <div>INDIAN</div>
-              <div>
-              <EditOutlined />
+                <EditOutlined className="edit-icon" />
               </div>
             </td>
           </tr>
@@ -77,7 +40,7 @@ function Card() {
             <td>
               <div>INDIAN</div>
               <div>
-              <EditOutlined />
+                <EditOutlined />
               </div>
             </td>
           </tr>
@@ -85,7 +48,7 @@ function Card() {
             <td>
               <div>INDIAN</div>
               <div>
-              <EditOutlined />
+                <EditOutlined />
               </div>
             </td>
           </tr>
@@ -93,7 +56,7 @@ function Card() {
             <td>
               <div>INDIAN</div>
               <div>
-              <EditOutlined />
+                <EditOutlined />
               </div>
             </td>
           </tr>
@@ -101,7 +64,7 @@ function Card() {
             <td>
               <div>INDIAN</div>
               <div>
-              <EditOutlined />
+                <EditOutlined />
               </div>
             </td>
           </tr>
@@ -109,7 +72,47 @@ function Card() {
             <td>
               <div>INDIAN</div>
               <div>
-              <EditOutlined />
+                <EditOutlined />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div>INDIAN</div>
+              <div>
+                <EditOutlined />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div>INDIAN</div>
+              <div>
+                <EditOutlined />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div>INDIAN</div>
+              <div>
+                <EditOutlined />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div>INDIAN</div>
+              <div>
+                <EditOutlined />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div>INDIAN</div>
+              <div>
+                <EditOutlined />
               </div>
             </td>
           </tr>{" "}
@@ -117,7 +120,7 @@ function Card() {
             <td>
               <div>INDIAN</div>
               <div>
-              <EditOutlined />
+                <EditOutlined />
               </div>
             </td>
           </tr>
@@ -125,7 +128,7 @@ function Card() {
             <td>
               <div>PAKISTANI</div>
               <div>
-              <EditOutlined />
+                <EditOutlined />
               </div>
             </td>
           </tr>
@@ -133,7 +136,7 @@ function Card() {
             <td>
               <div>ITALIAN</div>
               <div>
-              <EditOutlined />
+                <EditOutlined />
               </div>
             </td>
           </tr>
@@ -141,7 +144,7 @@ function Card() {
             <td>
               <div>CHINESE</div>
               <div>
-              <EditOutlined />
+                <EditOutlined />
               </div>
             </td>
           </tr>

@@ -2,7 +2,7 @@ import { LeftOutlined } from "@ant-design/icons";
 // import { Tabs,Button,Input,Space,Table,Tag } from 'antd'
 import { useNavigate } from "react-router-dom";
 import AddImage from "../Add Image/AddImage";
-import "../../../pages/Restaurants/Profile/profile.css";
+import "../../../pages/Restaurant/Profile/profile.css";
 
 function Categories() {
   const navigate = useNavigate();

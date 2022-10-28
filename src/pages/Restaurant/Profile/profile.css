@@ -1,6 +1,15 @@
+.main-profile-div{
+    width: 100%;
+    padding:1%;
+}
+
 .profilemain{
-    margin-right: 4%;
-    margin-left:  4%;
+    padding: 10px;
+    width: 100%;
+}
+
+.profilemain .ant-tabs{
+    width: 100%;
 }
 
 .profmain h4{
@@ -13,7 +22,8 @@
 }
 .personalinfodiv1{
     border: 1px solid #c9c9c8;
-    padding: 1%;
+    border-radius: 5px;
+    padding: 2%;
 }
 
 .personalinfodiv2{

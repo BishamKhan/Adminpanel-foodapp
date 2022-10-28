@@ -197,3 +197,8 @@
 .sidebar-label {
   flex: 70%;
 }
+
+
+.top-bar{
+  justify-content: right;
+}

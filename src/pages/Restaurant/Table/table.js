@@ -1,6 +1,5 @@
 import { Space, Table, Tag } from "antd";
 import React from "react";
-
 import { useNavigate } from "react-router-dom";
 
 function Tablecomp() {
@@ -15,9 +14,8 @@ function Tablecomp() {
     },
     {
       title: "RESTAURANT NAME",
-      // dataIndex: 'restaurantname',
       key: "restaurantname",
-      render: (_, record) => (
+      render: () => (
         <Space size="middle">
           <p
             onClick={() => navigate("/restaurantprofile")}
@@ -191,11 +189,11 @@ function Tablecomp() {
   ];
 
   return (
-    <div className="" style={{ display: "flex" }}>
+    <div>
       {/* <div style={{width:"300px", backgroundColor:"skyblue"}}>
             <h1>sidebar</h1>
         </div> */}
-      <Table columns={columns} dataSource={data} />
+      <Table columns={columns} dataSource={data}/>
     </div>
   );
 }

@@ -76,3 +76,12 @@ padding: 4%;
   cursor: pointer;
   
 }
+
+.menu-icon svg , .menu-filter-icon svg{
+  width: 110%;
+  height: 110%;
+  /* padding-right: 20%; */
+}
+.menu-icon{
+  padding-right: 1em;
+}

@@ -7,7 +7,7 @@ import "./restaurant.css";
 
 function Restaurant() {
   return (
-    <div className="" style={{ display: "flex" }}>
+    <div className="restuarant-main" style={{ display: "flex" }}>
       {/* <div style={{ width: "300px", backgroundColor: "#3c9ca7" }}>
         <h1>sidebar</h1>
       </div> */}

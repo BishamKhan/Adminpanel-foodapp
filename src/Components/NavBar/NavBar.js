@@ -19,10 +19,8 @@ function NavBar() {
             <DollarCircleOutlined className="icon-bill" />
             Billing
           </a>
-          <div>
-            <button className="trail-btn">Free Trail: Expired</button>
-          </div>
-          <a href="#news">FOODS</a>
+          <div className="col-md-4 top-bar" >
+          <a href="#news">CUNTO</a>
           <div class="dropdown">
             <button class="dropbtn">
               English
@@ -39,6 +37,8 @@ function NavBar() {
               src="https://png.pngtree.com/png-vector/20190303/ourlarge/pngtree-modern-abstract-3d-logo-png-image_771012.jpg"
             />
           </div>
+          </div>
+          
         </div>
       </div>
     </div>

@@ -1,0 +1,39 @@
+.addresmain {
+    margin-left: 50px;
+    margin-right: 45px;
+    place-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10%;
+  }
+  
+  .addmain {
+    border: 2px solid #c9c9c8;
+    border-radius: 8px;
+    padding: 1.5%;
+    width: 100%;
+  }
+  
+  .main-div{
+      padding: 2px;
+  }
+  
+  .main-div button{
+      float: right;
+  }
+  
+  .addresdiv1 {
+    text-align: left;
+    padding: 1%;
+  }
+  .addresdiv1 input {
+    padding: 1.2% 50% 1.2% 2%;
+    border-radius: 4px;
+    border: 1px solid #c9c9c8;
+    font-size: 16px;
+  }
+  
+  .addresdiv1 p {
+    font-weight: 500;
+    font-size: 16px;
+  }

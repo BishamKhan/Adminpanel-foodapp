@@ -13,7 +13,7 @@ function Addrestaurants() {
           style={{ display: "flex", justifyContent: "space-between" }}
         >
           <h4>Restaurant Registration</h4>
-          <button onClick={() => navigate("/")} className="back-btn">
+          <button onClick={() => navigate("/restaurant")} className="back-btn">
             <LeftOutlined />
             Back
           </button>

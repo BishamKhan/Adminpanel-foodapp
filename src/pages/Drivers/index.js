@@ -21,7 +21,7 @@ function Drivers() {
           <h4>Drivers</h4>
           <div className="driverdiv1">
             <div>
-              <Search placeholder="input search text" enterButton />
+              <Search placeholder="input search text" enterButton  className="search-icon" />
             </div>
             <div className="drivdiv2">
               <p>Admin level</p>

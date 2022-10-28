@@ -1,3 +1,4 @@
+import { LeftOutlined } from "@ant-design/icons";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -10,8 +11,8 @@ function Promocode() {
           <h4>Add Promo</h4>
           <button
             onClick={() => navigate("/promotions")}
-            className="category-list-btn"
-          >
+            className="back-btn"
+          ><LeftOutlined />
             Back
           </button>
         </div>

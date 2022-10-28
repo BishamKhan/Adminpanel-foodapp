@@ -1,0 +1,48 @@
+.users-main-div {
+  width: 100%;
+  padding: 1.5%;
+}
+
+.usersmain {
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.usersdiv {
+  text-align: left;
+}
+
+.usersdiv1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+
+.usersdiv2 {
+  margin-right: 2%;
+  margin-left: 2%;
+  display: flex;
+}
+
+.usersdiv2:hover{
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+.downloadbtn {
+  background-color: #fff;
+  border: 1px solid gray;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.downloadbtn svg {
+  flex: 30%;
+  display: grid;
+  place-items: center;
+  padding-right: 4px;
+  width: 90%;
+  height: 90%;
+}

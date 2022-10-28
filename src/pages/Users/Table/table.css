@@ -1,0 +1,41 @@
+.drivers-table{
+    width: 100%;
+}
+
+.revdp{
+    width: 100px;
+}
+
+
+.imgdp img{
+    height: 10%;
+    width:  50%;
+    background-color: #bbb;
+    border-radius: 50%;  
+}
+
+.tablebtn{
+    background-color: #3c9ca7;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    /* padding: 0.5% 1% 0.5% 1%; */
+
+}
+
+.ant-switch{
+    background-color: #3c9ca7 !important;
+}
+
+.ant-table-tbody{
+    text-align: center !important;
+}
+
+.ant-table-cell{
+    text-align: center !important;
+}
+
+
+tr:nth-child(odd){
+    background-color: #efefee;
+  }

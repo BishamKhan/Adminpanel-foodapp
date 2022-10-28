@@ -11,6 +11,7 @@ import Categories from "./Components/Menucard/Categories/categories";
 import Order from "./pages/Orders/Order";
 import Resprofile from "./pages/Restaurant/Profile/resprofile";
 import Restaurant from "./pages/Restaurant";
+import Users from "./pages/Users";
 import Drivers from "./pages/Drivers";
 import Banners from "./pages/Banners/banners";
 import Promotion from "./pages/Promotions/promotion";
@@ -39,6 +40,7 @@ function App() {
           <Route path="/addbanners" element={<Addbanners/>} />
           <Route path="/promocode" element={<Promocode/>} />
           <Route path="/drivers" element={<Drivers/>} />
+          <Route path="/users" element={<Users/>} />
           <Route path="/adddrivers" element={<AddDriver/>} />
         </Routes>
       </div>

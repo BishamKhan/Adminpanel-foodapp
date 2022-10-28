@@ -127,7 +127,7 @@ function Tablecomp() {
   ];
 
   return (
-    <div className="drivers-table" >
+    <div className="" >
       <Table columns={columns} dataSource={data} />
     </div>
   );

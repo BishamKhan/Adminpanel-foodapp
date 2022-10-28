@@ -17,7 +17,7 @@ function Promotion() {
         <div>
           <div className="div-banner" style={{ display: "flex" }}>
             <div>
-              <Search placeholder="Search By Name" enterButton />
+              <Search placeholder="Search By Name" enterButton  className="search-icon" />
             </div>
             <div>
               <button

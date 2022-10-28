@@ -11,8 +11,11 @@ function Categories() {
       <div>
         {/* <div className='col-md-2'></div> */}
         <div className="main-div" style={{ display: "flex" }}>
-          <h4>Add New Category</h4>
-          <button onClick={() => navigate("/menu")}>
+          <h4 className="heading-title">Add New Category</h4>
+          <button
+            onClick={() => navigate("/menu")}
+            className="category-list-btn"
+          >
             <LeftOutlined className="categories-icon" />
             Category List
           </button>

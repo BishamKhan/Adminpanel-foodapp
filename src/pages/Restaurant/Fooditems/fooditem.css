@@ -1,0 +1,15 @@
+.foodcatbtn{
+    border: none;
+    border-radius: 5px;
+    padding: 0.5% 1.2% 0.5% 1.2%;
+    cursor: pointer;
+    border-color: #3c9ca7;
+    background: #3c9ca7;
+    color: #fff;
+    text-align: left;
+}
+
+.foodcat{
+    text-align: left;
+    margin: 1% 0% 1% 0%;
+}
